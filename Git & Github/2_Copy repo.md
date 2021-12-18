@@ -1,0 +1,6 @@
+- 1: Go to the project file in GitHub
+- Click on fork (the weird pipe item)
+- Then Click on CODE, copy the link
+- 2: Go into the desired project location
+- R-click then "Create Git GUSH"
+- easy from there

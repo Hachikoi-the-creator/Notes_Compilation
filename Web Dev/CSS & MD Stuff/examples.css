@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #4a4a4a;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 25px 0;
+    margin-bottom: 25px;
+}
+
+main {
+
+    background-color: lightblue;
+    color: darkcyan;
+    /* Large of sides! */
+    width: 600px;
+    /* Space inside the element */
+    padding: 17px;
+    border: lightcoral 7px solid;
+    text-align: center;
+    /* Erase annoying default space */
+    margin: 0;
+}
+/* SOME COMPARATION OF WHAT I MADE, GOT STUK ON THE COLUMNS T.T */
+/*
+h1 - 48px
+h2 - 36px
+h3 - 28px
+all other text - 21px
+
+colors: 
+   #588C94 
+   #1D3C41
+*/
+
+/* MAKE USEFUL COMMENTS TO DIVIDE SECTIONS IN THE CSS, SINCE USSUALLY GET'S SO DAMM LARGE 200+ 
+- GLOBAL STYLES (general font-size background color etc, BODY's rules)
+- TYPOGRAFY (font size, style etc)
+- LAYOUT (Spefic layout of the elements within the body )
+*/
+body {
+    margin: 0; 
+    /* Everything except h1,h2,h3 */
+    font-size: 21px;
+}
+
+
+h1 {
+    font-size: 48px;
+    /* padding: 4.5% 10%; NOT SPOSED TO GO HERE*/
+    /* margin-top: 0; NOT HERE EITHER */
+}
+
+h2 {font-size: 36px;}
+
+h3 {font-size: 28px;}
+
+header {
+    background-color: #588C94 ;
+    text-align: center;
+    color: white;
+    /* PADDIN' HERE*/
+    padding: 30px 0;
+}
+
+.middle-text {
+    text-align: center;
+    /* USE AUTO INSTEAD OF 25% TO CENTER */
+    margin: 2% auto;
+    /* LIMIT THE WIDHT */
+    width: 10%;
+}
+
+.about-it {
+    background: #1D3C41;
+    color: aliceblue;
+}
+
+.column-group {
+    margin: 17%;
+    /* flex: center; OMGGGG */
+    /* BRUUUUUH */
+    display: flex; 
+}
+
+.column {
+    width: 30%;
+    /* Means 3.7% in between columns tho */
+    margin: 1.7%;
+}
+

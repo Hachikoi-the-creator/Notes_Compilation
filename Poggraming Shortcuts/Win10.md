@@ -1,0 +1,2 @@
+**Calculator** .- Win + R. "calc"
+

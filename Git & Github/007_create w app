@@ -1,0 +1,5 @@
+- First create the repository in github.com
+- Then copy the URL
+- Goto app - > file -> clone repository
+- create a local folder -> move all your project files in the created folder
+- Click fetch origin
