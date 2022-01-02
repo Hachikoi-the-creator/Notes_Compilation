@@ -1,5 +1,45 @@
 # Why SASS?
-Pretty much because of the nesting, makes things pretty easier
+- Pretty much because of the nesting, makes things pretty easie
+- Also because of modular styling, style diferent part and pages in diferent files
+
+# Change powershell to cmd in VSCode
+
+- open settings [control + ,]
+- search for "@feature:terminal" in the UI version of settings
+- scroll down until to fin **"Terminal > Integrated > Default Profile: Windows"**
+- Select Command prompt
+
+
+# Watch SASS [First set-up]
+
+Need to do a bunch of stuff F
+- first make sure you have node installed whit
+	- npm -v
+- Run a command to make your life easier later on 
+	- npm init -y
+- Run anotyher command to make the project automatically install some stuff, creates the node_modules dir
+	- npm install sass --save-dev
+- install sass, if first time
+	- npm install -g sass
+- Watch for sass folder or dir
+	- sass --watch [origin-rel-path]:[destinyrel-path]
+
+## Watch sass [daily stuff]
+
+- run in the project folder [w/cmd]
+	- npm init -y
+	- npm install sass --save-dev 
+		-  or just npm install if clonned repo
+	- sass --watch [origin-rel-path]:[destinyrel-path]
+
+### Push & clone the project repo
+
+**DONT FORGET THE .GITIGNORE!°**
+
+- add a .gitignore adn write the following, since they are pretty heavy and it'd be such a hasle to upload and download
+	- node_module
+- run this command after cloning/pulling. this will look into the package.json file and look for what's in the "devDependencies" and install that
+	- npm install
 
 # Variables in CSS VS Variables in SCSS
 ```scss
